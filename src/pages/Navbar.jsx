@@ -7,7 +7,7 @@ const Navbar = () => {
       <div style={{width:"110px",marginTop:"-6px",marginLeft:"-10px",height:"100px"}}>
         <img  alt='Decency Construction' src='/src/assets/logo.jpg'/>
         </div>
-        <ul className="flex space-x-4 items-center m-2">
+        <ul className="flex space-x-4 items-center" style={{marginTop:"-36px"}}>
           <li>
             <a href="/" className="text-black hover:text-gray-200 font-bold text-lg" style={{ fontFamily: 'Arial, sans-serif' }}>Home</a>
           </li>
